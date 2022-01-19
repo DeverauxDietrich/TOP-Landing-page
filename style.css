@@ -100,10 +100,11 @@ p {
     align-items: center;
     position: relative;
     bottom: 20px;
+    width: 70px;
     background-color: #3882f6;
     color: inherit;
     border-radius: 5px;
-    padding: 0.4em 1em 0.6em;
+    padding: 0.4em 2em 0.6em;
     box-shadow: 2px 2px 4px 2px #0002;
 }
 
@@ -111,17 +112,19 @@ p {
     display: flex;
     justify-content: center;
     font-size: 28px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .box {
     background: rgb(255, 255, 255);
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     border: 4px solid #3882f6;
     display: flex;
     flex-direction: row;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .boxes {
@@ -137,6 +140,62 @@ p {
 }
 
 .subs {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    padding-top: 100px;
+}
+
+.quote {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: normal;
+}
+
+.thor {
+    display: flex;
+    padding-right: 140px;
+    padding-left: 90px;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+.quote , .thorquote {
+    background-color: #e5e7eb;
+    font-weight: normal;
+}
+
+.thorquote , h4{
+    font-weight: normal;
+    font-size: 33px;
+    display: flex;
+}
+
+.thunder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: normal;
+}
+
+i {
+    font-weight: normal;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.call {
     display: flex;
     justify-content: center;
 }
